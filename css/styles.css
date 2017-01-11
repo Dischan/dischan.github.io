@@ -1,0 +1,239 @@
+.nav-bar {
+  margin-top: 3%;
+  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid #33302e;
+  padding-bottom: 2%;
+}
+
+.footer {
+  margin-bottom: 3%;
+  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-top: 1px solid #33302e;
+  padding-top: 2%;
+  font-size: 0.8em;
+}
+
+ul.nav-links {
+  list-style: none;
+  float: right;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.footer ul.nav-links {
+  text-align: center;
+  float: none;
+  display: block;
+}
+
+ul.nav-links li {
+  display: inline-block;
+  margin-left: 40px;
+  margin-bottom: 0;
+}
+
+.footer ul.nav-links li {
+  margin: 0 7px;
+}
+
+ul.nav-links li a {
+  color: #33302e;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.footer ul.nav-links li a {
+  color: #85817e;
+  display: inline-block;
+}
+
+ul.nav-links li a:hover {
+  color: #33302e;
+  text-decoration: underline;
+}
+
+ul.nav-links li.highlight a, ul.nav-links li.highlight a {
+    text-align: center;
+    border: 1px solid #33302e;
+    border-radius: 5px;
+    line-height: 32px;
+    width: 90px;
+    padding-bottom: 2px;
+}
+
+.logo {
+  line-height: 32px;
+  display: inline-block;
+  font-family: "Bitter";
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.logo a, .logo a:hover, .logo a:active {
+  color: #33302e;
+  text-decoration: none;
+}
+
+.banner {
+  margin-top: 7px;
+  text-align: center;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner h1 {
+  margin-top: 105px;
+  font-size: 2em;
+  font-family: "Bitter";
+}
+
+.banner h1 strong {
+  font-weight: 700;
+  text-shadow: 2px 2px 5px #2e2e2e;
+}
+
+.content {
+  padding: 2% 1%;
+}
+
+h2 + p {
+  margin-top: 2.3rem;
+}
+
+p {
+  font-size: 1.1em;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  line-height: 1.75em;
+  letter-spacing: .1px;
+}
+
+p.meta {
+  color: #85817e;
+  font-size: 0.8em;
+  margin-top: -2rem;
+  text-transform: uppercase;
+}
+
+.article {
+  padding: 2rem 0 1rem;
+}
+
+.article h2 {
+  font-weight: 600;
+}
+
+.blog h2 {
+  margin-bottom: 0.4rem;
+}
+
+.centered {
+  max-width: 710px;
+  margin: auto;
+}
+
+.top {
+  padding-top: 1rem;
+}
+
+.blog {
+  margin-bottom: 2.5rem;
+}
+
+.blog h3 {
+  margin-bottom: 0.8rem;
+  font-size: 3.3rem;
+}
+
+.blog p.meta {
+  color: #85817e;
+  font-size: 0.8em;
+  margin-top: -1.5rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.blog h3 a {
+  color: #33302e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+ul.downloads>li {
+  width: 32%;
+  min-width: 175px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+a {
+  color: #1193be;
+}
+
+a:hover, a:active {
+  color: #00506a;
+}
+
+input, textarea, select, fieldset {
+  margin-bottom: 2.5rem;
+}
+
+input[type=file] {
+  margin-bottom: 3rem;
+}
+
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+  display: inline-block;
+  height: auto;
+  padding: 0 29px;
+  color: #555;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: 600;
+  line-height: 3;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+    color: #FFF;
+    background-color: #27b5e3;
+    border-color: #27b5e3;
+}
+
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #006f94;
+  border-color: #006f94; }
+
+pre {
+  padding: 1.5rem 2rem;
+  margin: 0 .2rem;
+  font-size: 90%;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px;
+  margin-bottom: 2.5rem;
+}
